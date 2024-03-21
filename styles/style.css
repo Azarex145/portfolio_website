@@ -1303,6 +1303,7 @@ footer {
     padding: 20px;
   }
   #hamburger-button {
+    cursor: pointer;
     font-size: 3rem;
     font-weight: 800;
     width: 4.5rem;
@@ -1350,7 +1351,6 @@ footer {
     right: 0;
     list-style: none;
     font-size: 2rem;
-    cursor: pointer;
     display: flex;
     transform: translate(1000px);
     transition-duration: 1s;
