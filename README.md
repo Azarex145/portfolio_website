@@ -38,7 +38,7 @@
 
 ### Clone the repository:
 ```bash
-git clone <https://github.com/Azarex145/portfolio_website.git>
+git clone https://github.com/Azarex145/portfolio_website.git
 ```
 ### Navigate to the project directory:
 ```bash
