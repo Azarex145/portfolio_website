@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Shivam Sharma | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.png" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps"
+    />
+  </head>
+
+  <body class="body">
+    <header id="homepage">
+      <div class="cursor-inner" id="cursor-inner"></div>
+      <div class="cursor-outer" id="cursor-outer"></div>
+
+      <div class="navbar" id="navbar">
+        <div class="hey">Hey!</div>
+        <div class="logo" tabindex="0" aria-label="logo">
+          <div class="logo-top">
+            <img src="assets/utils/logo.png" alt="animation-head" />
+          </div>
+        </div>
+        <div class="navbar-tabs" id="navbar-tabs">
+          <ul class="navbar-tabs-ul">
+            <li
+              class="home activeThistab"
+              class="navbar-tabs-li"
+              data-aos="fade-down"
+              data-aos-delay="100"
+            >
+              <a href="#homepage" tabindex="0" aria-label="Home menu button">
+                &#60;/Home&#62;
+              </a>
+            </li>
+
+            <li
+              class="about"
+              class="navbar-tabs-li"
+              data-aos="fade-down"
+              data-aos-delay="300"
+            >
+              <a href="#about" aria-label="about menu button">
+                &#60;/AboutMe&#62;
+              </a>
+            </li>
+
+            <li
+              class="skills"
+              class="navbar-tabs-li"
+              data-aos="fade-down"
+              data-aos-delay="500"
+            >
+              <a href="#skills" aria-label="skills menu button">
+                &#60;/Skills&#62;
+              </a>
+            </li>
+
+            <li
+              class="projects"
+              class="navbar-tabs-li"
+              data-aos="fade-down"
+              data-aos-delay="700"
+            >
+              <a href="#projects" aria-label="projects menu button">
+                &#60;/Projects&#62;
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="hamburger" id="hamburger" data-aos="fade">
+        <div class="hamburgerbase">
+          <button
+            id="hamburger-button"
+            onclick="hamburgerMenu()"
+            tabindex="0"
+            aria-label="Menu Button"
+          >
+            <span class="burger-bar" id="burger-bar1"></span>
+            <span class="burger-bar" id="burger-bar2"></span>
+            <span class="burger-bar" id="burger-bar3"></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobiletogglemenu" id="mobiletogglemenu">
+        <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
+          <li
+            id="home-mobile-tab"
+            class="mobile-navbar-tabs-li home activeThismobiletab"
+            onclick="hidemenubyli()"
+          >
+            <a href="#homepage" tabindex="0" aria-label="Home menu button">
+              &#60;/Home&#62;
+            </a>
+          </li>
+
+          <li
+            id="aboutme-mobile-tab"
+            class="mobile-navbar-tabs-li about"
+            onclick="hidemenubyli()"
+          >
+            <a href="#about" tabindex="0" aria-label="about menu button">
+              &#60;/AboutMe&#62;
+            </a>
+          </li>
+          <li
+            id="skills-mobile-tab"
+            class="mobile-navbar-tabs-li skills"
+            onclick="hidemenubyli()"
+          >
+            <a href="#skills" tabindex="0" aria-label="skills menu button">
+              &#60;/Skills&#62;
+            </a>
+          </li>
+          <li
+            id="projects-mobile-tab"
+            class="mobile-navbar-tabs-li projects"
+            onclick="hidemenubyli()"
+          >
+            <a href="#projects" tabindex="0" aria-label="projects menu button">
+              &#60;/Projects&#62;
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <section class="landing-page-container" id="home">
+        <div class="blob"></div>
+
+        <div class="text-content">
+          <article id="hello-friend" data-aos="fade-up" data-aos-delay="0">
+            <p class="jello">N</p>
+            <p class="jello">a</p>
+            <p class="jello">m</p>
+            <p class="jello">a</p>
+            <p class="jello">s</p>
+            <p class="jello">t</p>
+            <p class="jello">e</p>
+            <p class="jello">(</p>
+            <p class="jello">)</p>
+            <p class="jello">;</p>
+            &nbsp;
+            <p class="jello">I</p>
+            <p class="jello">'</p>
+            <p class="jello">m</p>
+          </article>
+          <article id="name" data-aos="fade-up" data-aos-delay="200">
+            <p class="jello">S</p>
+            <p class="jello">h</p>
+            <p class="jello">i</p>
+            <p class="jello">v</p>
+            <p class="jello">a</p>
+            <p class="jello">m</p>
+            &nbsp;
+            <p class="jello">S</p>
+            <p class="jello">h</p>
+            <p class="jello">a</p>
+            <p class="jello">r</p>
+            <p class="jello">m</p>
+            <p class="jello">a</p>
+            <p class="jello">.</p>
+          </article>
+
+          <article id="work" data-aos="fade-up" data-aos-delay="400">
+            <div>
+              <p class="jello">I</p>
+            </div>
+            <div>
+              <p class="jello">d</p>
+              <p class="jello">e</p>
+              <p class="jello">s</p>
+              <p class="jello">i</p>
+              <p class="jello">g</p>
+              <p class="jello">n</p>
+            </div>
+            <div>
+              <p class="jello">&</p>
+            </div>
+            <div>
+              <p class="jello">c</p>
+              <p class="jello">o</p>
+              <p class="jello">d</p>
+              <p class="jello">e</p>
+            </div>
+            <div>
+              <p class="jello">f</p>
+              <p class="jello">o</p>
+              <p class="jello">r</p>
+            </div>
+            <div>
+              <p class="jello">w</p>
+              <p class="jello">e</p>
+              <p class="jello">b</p>
+              <p class="jello">.</p>
+            </div>
+          </article>
+          <p id="info-para" data-aos="fade-up" data-aos-delay="600">
+            As a web developer, I specialize in crafting immersive and
+            responsive web experiences.<br />
+            <br />
+            I value simple content structure, clean design patterns, and
+            thoughtful interactions.
+            <br /><br />
+            Let's bring your ideas to life.
+          </p>
+          <div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
+            <a href="mailto:shivamazarex111@gmail.com" tabindex="-1">
+              <button class="letsTalkBtn">
+                <p class="letsTalkBtn-text">Let's Talk!</p>
+                <span class="letsTalkBtn-BG"></span></button
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section-container" id="about" data-aos="fade-up">
+        <div class="about-section">
+          <div class="section-heading">
+            <h2
+              class="section-heading-article"
+              tabindex="0"
+              aria-label="About me heading"
+            >
+              &#60;/AboutMe&#62;
+            </h2>
+            <p class="sectionHeadingP"></p>
+          </div>
+
+          <div class="info-dp-section">
+            <div class="about-info">
+              <p tabindex="0">
+                Hello there! I'm Shivam Sharma, your friendly neighborhood web
+                developer from the heart of India. With a keen eye for detail
+                and a passion for problem-solving, I specialize in crafting
+                elegant and efficient digital experiences that leave a lasting
+                impression.
+              </p>
+              <br />
+              <p tabindex="0">
+                I found my passion in web development. Crafting custom web
+                solutions has been an enlightening journey, enriching my
+                understanding of design and development intricacies.
+              </p>
+              <br />
+              <p tabindex="0">
+                My main focus these days is building interesting & creative web
+                designs, I like to code things from scratch, and enjoy bringing
+                ideas to life in the browser.
+              </p>
+
+              <button class="resume-btn" id="resume-btn" onclick="openURL()">
+                <div class="sign">
+                  <svg viewBox="0 0 640 512">
+                    <path
+                      d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z"
+                    />
+                  </svg>
+                </div>
+
+                <div class="text">Resume</div>
+              </button>
+            </div>
+
+            <div class="dp" data-aos="fade-up">
+              <img
+                src="https://static.vecteezy.com/system/resources/previews/011/354/494/original/young-man-are-doing-coding-3d-cartoon-character-illustration-png.png"
+                alt="Shivam Sharma"
+                tabindex="0"
+                aria-label="image of shivam"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills-section-container" id="skills">
+        <div class="skills-section">
+          <div class="section-heading" data-aos="fade-up">
+            <h2
+              class="section-heading-article"
+              tabindex="0"
+              aria-label="skills heading"
+            >
+              &#60;/Skills&#62;
+            </h2>
+            <p class="sectionHeadingP"></p>
+          </div>
+
+          <div class="frontend-dev-section">
+            <ul class="tech-stack-wrapper">
+              <li class="tech-stack-box" data-aos="fade-up">
+                <img
+                  src="assets/skills/htmllogo.png"
+                  alt="Html skill"
+                  class="tech-stack-logo"
+                />
+                <span class="tooltip">HTML</span>
+              </li>
+
+              <li class="tech-stack-box" data-aos="fade-up">
+                <img
+                  src="assets/skills/csslogo.png"
+                  alt="css skill"
+                  class="tech-stack-logo"
+                />
+                <span class="tooltip">CSS</span>
+              </li>
+
+              <li class="tech-stack-box" data-aos="fade-up">
+                <img
+                  src="assets/skills/jslogo.png"
+                  alt="js skill"
+                  class="tech-stack-logo"
+                />
+                <span class="tooltip">JavaScript</span>
+              </li>
+
+              <li class="tech-stack-box" data-aos="fade-up">
+                <img
+                  src="assets/skills/tailwindcsslogo.png"
+                  alt="react skill"
+                  class="tech-stack-logo"
+                />
+                <span class="tooltip">TAILWIND CSS</span>
+              </li>
+              <li class="tech-stack-box" data-aos="fade-up">
+                <img
+                  src="assets/skills/reactlogo.png"
+                  alt="react skill"
+                  class="tech-stack-logo"
+                />
+                <span class="tooltip">REACT</span>
+              </li>
+
+              <li class="tech-stack-box" data-aos="fade-up">
+                <img
+                  src="assets/skills/nodejslogo.png"
+                  alt="github skill"
+                  class="tech-stack-logo needtobeinvert"
+                />
+                <span class="tooltip">NODE JS</span>
+              </li>
+              <li class="tech-stack-box" data-aos="fade-up">
+                <img
+                  src="assets/skills/express-js-logo.png"
+                  alt="c++ language skill"
+                  class="tech-stack-logo"
+                />
+                <span class="tooltip">EXPRESS JS</span>
+              </li>
+              <li class="tech-stack-box" data-aos="fade-up">
+                <img
+                  src="assets/skills/mogoDB.png"
+                  alt="bootstrap skill"
+                  class="tech-stack-logo"
+                />
+                <span class="tooltip">MONGODB</span>
+              </li>
+              <li class="tech-stack-box" data-aos="fade-up">
+                <img
+                  src="assets/skills/cpplogo.png"
+                  alt="c++ language skill"
+                  class="tech-stack-logo"
+                />
+                <span class="tooltip">C++</span>
+              </li>
+
+              <li class="tech-stack-box" data-aos="fade-up">
+                <img
+                  src="assets/skills/sql.png"
+                  alt="c++ language skill"
+                  class="tech-stack-logo"
+                />
+                <span class="tooltip">SQL</span>
+              </li>
+              <li class="tech-stack-box" data-aos="fade-up">
+                <img
+                  src="assets/skills/gitlogo.png"
+                  alt="git skill"
+                  class="tech-stack-logo"
+                />
+                <span class="tooltip">GIT</span>
+              </li>
+              <li class="tech-stack-box" data-aos="fade-up">
+                <img
+                  src="assets/skills/githublogo.png"
+                  alt="github skill"
+                  class="tech-stack-logo needtobeinvert"
+                />
+                <span class="tooltip">GITHUB</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section-container" id="projects">
+        <div class="projects-section-div">
+          <div class="section-heading" data-aos="fade-up">
+            <h2
+              class="section-heading-article"
+              tabindex="0"
+              aria-label="My projects starts from here"
+            >
+              &#60;/Projects&#62;
+            </h2>
+            <p class="sectionHeadingP"></p>
+          </div>
+          <div class="project-boxes-div">
+            <div data-aos="fade-up" class="project-box-wrapper">
+              <div class="project-box project-box1" id="project-box1">
+                <div class="info-div">
+                  <article class="ProjectHeading">GoChat</article>
+                  <p class="ProjectDescription">
+                    This is a realtime chat application built with the MERN
+                    stack (MongoDB Express.js React.js Node.js) along with
+                    Socket.io for real-time messaging. The frontend is styled
+                    using TailwindCSS with Daisy UI components.
+                  </p>
+
+                  <div class="project-buttons">
+                    <a
+                      href="https://github.com/Azarex145/go-chat"
+                      target="_blank"
+                      class="github-redirect"
+                      aria-label="Visit GoChat on GitHub"
+                    >
+                      <img
+                        src="assets/svg/github.svg"
+                        alt="github redirect button"
+                      />
+                    </a>
+                    <a
+                      href="https://go-chat-lpn0.onrender.com"
+                      target="_blank"
+                      class="cta"
+                      aria-label="Visit GoChat Live"
+                    >
+                      <span>Live view</span>
+                      <svg viewBox="0 0 13 10" height="10px" width="15px">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="image-div">
+                  <img
+                    src="assets/projects/go-chat.png"
+                    alt="GoChat website preview image"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="project-box-wrapper" data-aos="fade-up">
+              <div class="project-box project-box2" id="project-box2">
+                <div class="info-div">
+                  <article class="ProjectHeading">Todo App</article>
+                  <p class="ProjectDescription">
+                    This is a simple Todo application built using React,
+                    Tailwind CSS, and Redux which allows users to add tasks,
+                    mark them as completed or incomplete, filter tasks based on
+                    their completion status, delete tasks, and mark all tasks as
+                    completed.
+                  </p>
+                  <div class="project-buttons">
+                    <a
+                      href="https://github.com/Azarex145/todo-app"
+                      target="_blank"
+                      class="github-redirect"
+                      aria-label="Visit Todo on GitHub"
+                    >
+                      <img
+                        src="assets/svg/github.svg"
+                        alt="github redirect button"
+                      />
+                    </a>
+                    <a
+                      href="https://todo-app-sand-theta-17.vercel.app"
+                      target="_blank"
+                      class="cta"
+                      aria-label="Visit Todo App live"
+                    >
+                      <span>Live view</span>
+                      <svg viewBox="0 0 13 10" height="10px" width="15px">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="image-div">
+                  <img
+                    src="assets/projects/todo.png"
+                    alt="Todo App preview image"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="project-box-wrapper" data-aos="fade-up">
+              <div class="project-box project-box3" id="project-box3">
+                <div class="info-div">
+                  <article class="ProjectHeading">ImageScape</article>
+                  <p class="ProjectDescription">
+                    ImageScape is a captivating image search website powered by
+                    React.js and the Pixabay API, enabling users to effortlessly
+                    explore, adore, and categorize images across diverse themes.
+                  </p>
+                  <div class="project-buttons">
+                    <a
+                      href="https://github.com/Azarex145/ImageScape"
+                      target="_blank"
+                      class="github-redirect"
+                      aria-label="Visit ImageScape on github"
+                    >
+                      <img
+                        src="assets/svg/github.svg"
+                        alt="github redirect button"
+                      />
+                    </a>
+                    <a
+                      href="https://azarex145.github.io/ImageScape"
+                      target="_blank"
+                      class="cta"
+                      aria-label="Visit ImageScape live"
+                    >
+                      <span>Live view</span>
+                      <svg viewBox="0 0 13 10" height="10px" width="15px">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="image-div">
+                  <img
+                    src="assets/projects/image-scape.png"
+                    alt="ImageScape website preview image"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="project-box-wrapper" data-aos="fade-up">
+              <div class="project-box project-box4" id="project-box4">
+                <div class="info-div">
+                  <article class="ProjectHeading">IndusSpark</article>
+                  <p class="ProjectDescription">
+                    An impressive Industrial Responsive Landing Page with HTML,
+                    CSS, and JavaScript!
+                  </p>
+                  <div class="project-buttons">
+                    <a
+                      href="https://github.com/Azarex145/IndusSpark"
+                      target="_blank"
+                      class="github-redirect"
+                      aria-label="Visit IndusSpark on GitHub"
+                    >
+                      <img
+                        src="assets/svg/github.svg"
+                        alt="github redirect button"
+                      />
+                    </a>
+                    <a
+                      href="https://azarex145.github.io/IndusSpark"
+                      target="_blank"
+                      class="cta"
+                      aria-label="Visit IndusSpark Live"
+                    >
+                      <span>Live view</span>
+                      <svg viewBox="0 0 13 10" height="10px" width="15px">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="image-div">
+                  <img
+                    src="assets/projects/indus-spark.png"
+                    alt="IndusSpark website preview image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <button class="fas" id="backtotopbutton" onclick="scrolltoTopfunction()">
+        <img src="assets/utils/rocket.png" alt="" />
+      </button>
+      <div class="footer-background">
+        <div class="footer-blob"></div>
+      </div>
+      <div class="footer-foreground">
+        <div class="footercontainer">
+          <div class="words-social">
+            <div class="two-words" data-aos="fade-up">
+              <article
+                tabindex="0"
+                aria-label="Learning fuels constant growth, my quote"
+              >
+                "Learning fuels constant growth"
+              </article>
+            </div>
+            <div class="social-media-container">
+              <div class="getintouch-heading" data-aos="fade-up">
+                <article>GetinTouch();</article>
+              </div>
+
+              <div class="circle" data-aos="fade-up">
+                <div class="up">
+                  <a
+                    href="http://www.instagram.com/shivam_exp621"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button class="card1">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0,0,256,256"
+                        width="30px"
+                        height="30px"
+                        fill-rule="nonzero"
+                        class="instagram"
+                      >
+                        <g
+                          fill-rule="nonzero"
+                          stroke="none"
+                          stroke-width="1"
+                          stroke-linecap="butt"
+                          stroke-linejoin="miter"
+                          stroke-miterlimit="10"
+                          stroke-dasharray=""
+                          stroke-dashoffset="0"
+                          font-family="none"
+                          font-weight="none"
+                          font-size="none"
+                          text-anchor="none"
+                          style="mix-blend-mode: normal"
+                        >
+                          <g transform="scale(8,8)">
+                            <path
+                              d="M11.46875,5c-3.55078,0 -6.46875,2.91406 -6.46875,6.46875v9.0625c0,3.55078 2.91406,6.46875 6.46875,6.46875h9.0625c3.55078,0 6.46875,-2.91406 6.46875,-6.46875v-9.0625c0,-3.55078 -2.91406,-6.46875 -6.46875,-6.46875zM11.46875,7h9.0625c2.47266,0 4.46875,1.99609 4.46875,4.46875v9.0625c0,2.47266 -1.99609,4.46875 -4.46875,4.46875h-9.0625c-2.47266,0 -4.46875,-1.99609 -4.46875,-4.46875v-9.0625c0,-2.47266 1.99609,-4.46875 4.46875,-4.46875zM21.90625,9.1875c-0.50391,0 -0.90625,0.40234 -0.90625,0.90625c0,0.50391 0.40234,0.90625 0.90625,0.90625c0.50391,0 0.90625,-0.40234 0.90625,-0.90625c0,-0.50391 -0.40234,-0.90625 -0.90625,-0.90625zM16,10c-3.30078,0 -6,2.69922 -6,6c0,3.30078 2.69922,6 6,6c3.30078,0 6,-2.69922 6,-6c0,-3.30078 -2.69922,-6 -6,-6zM16,12c2.22266,0 4,1.77734 4,4c0,2.22266 -1.77734,4 -4,4c-2.22266,0 -4,-1.77734 -4,-4c0,-2.22266 1.77734,-4 4,-4z"
+                            ></path>
+                          </g>
+                        </g>
+                      </svg>
+                    </button>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/shivam-sharma-446a64202"
+                    target="_blank"
+                  >
+                    <button class="card2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="linkedin"
+                        height="1.6em"
+                        viewBox="0 0 448 512"
+                      >
+                        <path
+                          d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"
+                        ></path>
+                      </svg>
+                    </button>
+                  </a>
+                </div>
+                <div class="down">
+                  <a href="https://github.com/Azarex145" target="_blank">
+                    <button class="card3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 30 30"
+                        width="30px"
+                        height="30px"
+                        class="github"
+                      >
+                        <path
+                          d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"
+                        ></path>
+                      </svg>
+                    </button>
+                  </a>
+                  <a href="mailto:shivamazarex111@gmail.com">
+                    <button class="card4">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        height="24"
+                        class="gmail"
+                        width="24"
+                      >
+                        <path
+                          d="M6 12C6 15.3137 8.68629 18 12 18C14.6124 18 16.8349 16.3304 17.6586 14H12V10H21.8047V14H21.8C20.8734 18.5645 16.8379 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C15.445 2 18.4831 3.742 20.2815 6.39318L17.0039 8.68815C15.9296 7.06812 14.0895 6 12 6C8.68629 6 6 8.68629 6 12Z"
+                        ></path>
+                      </svg>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 | Shivam Sharma</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
