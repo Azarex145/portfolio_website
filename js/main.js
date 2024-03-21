@@ -93,7 +93,7 @@ window.addEventListener("scroll", () => {
 });
 
 const openURL = () => {
-  const url = "src/pdf/Shivam-Sharma.pdf";
+  const url = "https://drive.google.com/file/d/1taY9Qi3NQXV4CvN_F8M2Pkba1jpIerpE/view?usp=sharing";
   window.open(url, "_blank");
 };
 
